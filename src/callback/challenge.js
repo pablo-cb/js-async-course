@@ -1,5 +1,7 @@
 // Importar la clase XMLHttpRequest del módulo 'xmlhttprequest'
-const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+import { XMLHttpRequest } from 'xmlhttprequest';
+// const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+
 
 // Definir la URL base de la API
 const API = 'https://api.escuelajs.co/api/v1';
